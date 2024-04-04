@@ -1,0 +1,46 @@
+<html>
+    <head>
+            
+    <p> Kabziński <br> <textarea id="story" name="story"
+     rows="30" cols="60">
+          
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Zadanie39</title>
+         <style>
+             body {
+                 font-family: Arial, sans-serif;
+             }
+         </style>
+     </head>
+     <body>
+         <h1 style="color:green;">Menu</h1>
+         <p style="color:blue;">• Niebieski</p>
+         <p style="color:red;">• Czerwony</p>
+     
+         <input type="button" name="nazwisko_ucznia" value="Oblicz" onclick="fun_kow()" />
+     
+         <div id="wynik"></div>
+     
+         <script>
+             function fun_kow() {
+                 var x_kow = prompt("Podaj kolor", "");
+                 var wynikDiv = document.getElementById("wynik");
+     
+                 if (x_kow == 1 || x_kow.toLowerCase() == "czerwony") {
+                     wynikDiv.innerHTML = '<h3 style="color:red;">Wczytałeś kolor czerwony</h3>';
+                 } else if (x_kow == 2 || x_kow.toLowerCase() == "niebieski") {
+                     wynikDiv.innerHTML = '<h3 style="color:blue;">Wczytałeś kolor niebieski</h3>';
+                 } else {
+                     wynikDiv.innerHTML = '<h3 style="color:black;">Niepoprawny kolor</h3>';
+                 }
+             }
+         </script>
+     </body>
+     </html>
+       
+          </textarea></body>
+                </html> </p>
